@@ -5,16 +5,42 @@ VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailsenderApiV1", "EmailsenderApiV1\EmailsenderApiV1.csproj", "{5048C345-C824-44A0-839F-CB22C5810CF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSenderLib", "EmailSenderLib\EmailSenderLib.csproj", "{D4CC4F61-2831-46A0-89B4-2A8210693068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailSenderTest", "EmailSenderTest\EmailSenderTest.csproj", "{5E8654C1-D6F2-4C1E-AE1D-0220FDAF3729}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5048C345-C824-44A0-839F-CB22C5810CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5048C345-C824-44A0-839F-CB22C5810CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5048C345-C824-44A0-839F-CB22C5810CF0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5048C345-C824-44A0-839F-CB22C5810CF0}.Debug|x86.Build.0 = Debug|Any CPU
 		{5048C345-C824-44A0-839F-CB22C5810CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5048C345-C824-44A0-839F-CB22C5810CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5048C345-C824-44A0-839F-CB22C5810CF0}.Release|x86.ActiveCfg = Release|Any CPU
+		{5048C345-C824-44A0-839F-CB22C5810CF0}.Release|x86.Build.0 = Release|Any CPU
+		{D4CC4F61-2831-46A0-89B4-2A8210693068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CC4F61-2831-46A0-89B4-2A8210693068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CC4F61-2831-46A0-89B4-2A8210693068}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D4CC4F61-2831-46A0-89B4-2A8210693068}.Debug|x86.Build.0 = Debug|Any CPU
+		{D4CC4F61-2831-46A0-89B4-2A8210693068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CC4F61-2831-46A0-89B4-2A8210693068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4CC4F61-2831-46A0-89B4-2A8210693068}.Release|x86.ActiveCfg = Release|Any CPU
+		{D4CC4F61-2831-46A0-89B4-2A8210693068}.Release|x86.Build.0 = Release|Any CPU
+		{5E8654C1-D6F2-4C1E-AE1D-0220FDAF3729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E8654C1-D6F2-4C1E-AE1D-0220FDAF3729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E8654C1-D6F2-4C1E-AE1D-0220FDAF3729}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5E8654C1-D6F2-4C1E-AE1D-0220FDAF3729}.Debug|x86.Build.0 = Debug|Any CPU
+		{5E8654C1-D6F2-4C1E-AE1D-0220FDAF3729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E8654C1-D6F2-4C1E-AE1D-0220FDAF3729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E8654C1-D6F2-4C1E-AE1D-0220FDAF3729}.Release|x86.ActiveCfg = Release|Any CPU
+		{5E8654C1-D6F2-4C1E-AE1D-0220FDAF3729}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
